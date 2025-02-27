@@ -14,6 +14,10 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
+namespace filter_textsubstitute;
+
+use moodle_text_filter;
+
 /**
  * textsubstitute filter
  *
@@ -23,7 +27,7 @@
  * @copyright  2024 Felipe Lima
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-class filter_textsubstitute extends moodle_text_filter {
+class text_filter extends moodle_text_filter {
 
     /**
      * Filter text
